@@ -1,0 +1,4 @@
+interface:
+  display_name: "xx理论 · 互联网学派生成器"
+  short_description: "把物品、习惯或个人经历包装成有辨识度的互联网理论，生成主张、金句与口播"
+  default_prompt: "使用 $xx-theory，给我的帆布袋创立一个一本正经胡说八道的生活理论。"
