@@ -1,0 +1,39 @@
+name: 素材投稿
+description: 提供一种xx理论的原始来源和内容摘要
+title: "[素材] "
+body:
+  - type: input
+    id: theory
+    attributes:
+      label: 理论名称
+      description: 如大水理论、薄肌理论，或你观察到的其他类型。
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: 作者或账号
+  - type: textarea
+    id: sources
+    attributes:
+      label: 原始链接与对应标题
+      description: 一行一条来源；标题相同也请保留不同链接。
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: 内容摘要或关键片段
+      description: 优先写自己的摘要；附原文时标出引用范围。请区分原话、转写和自己的解释。
+    validations:
+      required: true
+  - type: textarea
+    id: analysis
+    attributes:
+      label: 值得参考的表达（可选）
+      description: 哪一句、哪个场景或哪种推演最有特点？如含AI分析，请注明。
+  - type: input
+    id: metrics
+    attributes:
+      label: 点赞、播放量与记录时间（可选）
+      description: 保留原始口径；没有数据可留空。
