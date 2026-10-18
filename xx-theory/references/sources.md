@@ -49,7 +49,7 @@
 | BW07 | [强者饮品](https://v.douyin.com/HnTlPaTC_Jg/) | 9.6w |
 | BW08 | [跟风也要跟健康的风](https://v.douyin.com/g-q30kM8zyc/) | 2.9w |
 
-原创结构分析位于仓库 research/big-water-analysis.md；安装后可直接使用的模式见 [big-water.md](big-water.md)。research/ 是仓库研究材料，生成无需加载它。
+原创结构分析位于仓库 research/big-water.md；安装后可直接使用的模式见 [风格指南](style-guide.md)。research/ 是仓库研究材料，生成无需加载它。
 
 ## BW09—BW18：工作簿补充的十篇不同文稿
 
